@@ -21,7 +21,6 @@ class MainActivity : AppCompatActivity() {
         frytki = findViewById(R.id.checkBox1)
         sałatka = findViewById(R.id.checkBox2)
         chleb = findViewById(R.id.checkBox3)
-
         button = findViewById(R.id.button)
         button.setOnClickListener {
             var Łączna_Cena: Int = 0
